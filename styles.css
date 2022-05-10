@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: orange;
+  background: #E53233;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/nffc-ground.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: orange;
+  border-color: #E53233;
 }
 
 ul.skills {
@@ -120,6 +120,51 @@ ul.skills {
   background: #0399ff;
 }
 
+.experience{
+margin: 50px;
+padding: 20px;
+display: inline-block;
+padding: 20px;
+max-width: 1100px;
+min-height: 100px;
+background: #fff;
+border-bottom: 4px solid #ccc;
+border-radius: 6px;
+transition: all .5s;
+text-align: center;
+}
+
+.experience:hover {
+  border-color: #E53233;
+}
+
+.hobbies{
+margin: 5px;
+padding: 20px;
+display: inline-block;
+padding: 20px;
+max-width: 1100px;
+min-height: 100px;
+background: #fff;
+border-bottom: 4px solid #ccc;
+border-radius: 6px;
+transition: all .5s;
+text-align: center;
+}
+
+.hobbies:hover {
+  border-color: #E53233;
+}
+
+.image{
+  display: flex;
+  margin: 5px;
+}
+
+p {
+  text-align: left;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -129,6 +174,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  text-align: center;
 }
 
 footer ul {
@@ -151,12 +197,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
