@@ -139,7 +139,7 @@ text-align: center;
 }
 
 .hobbies{
-margin: 5px;
+margin: 50px;
 padding: 20px;
 display: inline-block;
 padding: 20px;
@@ -157,8 +157,16 @@ text-align: center;
 }
 
 .image{
-  display: flex;
+  display: inline-block;
   margin: 5px;
+  border:  3px solid #ccc;
+  transition: all .5s;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.image:hover{
+  border-color: #E53233;
 }
 
 p {
