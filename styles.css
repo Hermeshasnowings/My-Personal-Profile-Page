@@ -121,7 +121,9 @@ ul.skills {
 }
 
 .experience{
-margin: 50px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
 padding: 20px 40px 40px;
 display: inline-block;
 max-width: 1100px;
@@ -134,6 +136,22 @@ text-align: left;
 }
 
 .experience:hover {
+  border-color: #E53233;
+}
+
+.image-l{
+  display: inline-block;
+  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom:  3px solid #ccc;
+  transition: all .5s;
+  border-radius: 5px;
+  max-width: 1100px;
+  min-height: 100px;
+}
+
+.image-l:hover{
   border-color: #E53233;
 }
 
@@ -166,6 +184,8 @@ text-align: left;
 .image:hover{
   border-color: #E53233;
 }
+
+
 
 p {
   text-align: left;
