@@ -137,6 +137,10 @@ ul.skills {
   background: gray;
 }
 
+.projects {
+  margin-top: 100px;
+}
+
 .experience {
   margin-top: 5px;
   margin-left: 50px;
