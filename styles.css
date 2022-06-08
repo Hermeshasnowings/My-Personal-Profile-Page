@@ -138,14 +138,15 @@ ul.skills {
 }
 
 .projects {
-  margin-top: 100px;
-  display: block;
+  margin-top: 50px;
+  display: inline-block;
+  text-align: center;
 }
 
 .projects-cards {
   display: inline-table;
   margin: 5px;
-  padding: 20px 40px 40px;
+  padding: 10px 40px 40px;
   min-height: 800px;
   max-width: 500px;
   max-height: 1000px;
