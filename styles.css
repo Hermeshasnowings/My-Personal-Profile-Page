@@ -141,6 +141,7 @@ ul.skills {
   margin-top: 50px;
   display: inline-block;
   text-align: center;
+  min-width: 300px;
 }
 
 .projects-cards {
