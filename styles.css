@@ -316,4 +316,24 @@ a.social:hover {
     margin: 40px auto;
   }
 
+  @media (max-width: 769px) {
+
+    .main-nav,
+    .nav {
+      display: flex;
+    }
+
+    .nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (min-width: 1025px) {
+
+    .nav {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 }
