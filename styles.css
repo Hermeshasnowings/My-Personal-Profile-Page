@@ -335,5 +335,11 @@ a.social:hover {
       flex-direction: row;
       justify-content: space-between;
     }
+
+    .insta {
+      width: 80%;
+      margin: auto;
+    }
   }
+
 }
