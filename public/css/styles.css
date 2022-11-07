@@ -64,7 +64,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/nffc-ground.jpg') no-repeat top center;
+  background: url('../images/nffc-ground.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -144,7 +144,6 @@ ul.skills {
 
 .projects {
   margin-top: 50px;
-  display: inline-block;
   text-align: center;
   min-width: 300px;
 }
@@ -268,7 +267,7 @@ a.social {
 }
 
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url('../images/github.svg');
 }
 
 a.social:hover {
@@ -339,6 +338,11 @@ a.social:hover {
     .insta {
       width: 80%;
       margin: auto;
+    }
+
+    .projects,
+    p {
+      text-align: center;
     }
   }
 

@@ -5,20 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Experience</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
 </head>
 <body>
-<nav class="main-nav">
-        <ul class="nav">
-          <li class="name">Holly Smith</li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="hobbies.html">Hobbies</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="webProjects.html">Web Projects</a></li>
-        </ul>
-      </nav>
+    <nav id="nav">
+      <%- include('partials/nav.ejs') %>
+    </nav>
     <main>
       <div>
       <img class="image-l" src="images/experience.jpg" alt="a bookshelf with books">
