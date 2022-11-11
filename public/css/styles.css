@@ -32,7 +32,6 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
-  box-shadow: inset 0 0 20px darkred;
 }
 
 .nav {
@@ -50,6 +49,11 @@ a:hover {
   color: white;
 }
 
+.logo {
+  max-height: 30px;
+  margin-right: 10px;
+}
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -60,6 +64,10 @@ a:hover {
 
 .nav a:hover {
   color: white
+}
+
+.btn {
+  color: #ffe484;
 }
 
 header {
@@ -340,10 +348,6 @@ a.social:hover {
       margin: auto;
     }
 
-    .projects,
-    p {
-      text-align: center;
-    }
   }
 
 }
