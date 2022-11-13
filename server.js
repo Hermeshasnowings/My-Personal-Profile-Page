@@ -24,6 +24,10 @@ app.get('/experience', function (req, res) {
     res.render('experience');
 });
 
+app.get('/gallery', function (req, res) {
+    res.render('gallery');
+});
+
 //Web Projects page
 
 app.get('/webProjects', function (req, res) {
