@@ -188,20 +188,24 @@ ul.skills {
   box-shadow: 0px 0 5px #aaa;
 }
 
+.container {
+  position: relative;
+
+}
+
+
+
 .experience {
-  margin-top: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 150px;
   padding: 20px 40px 40px;
-  display: inline-block;
   max-width: 1100px;
-  min-height: 100px;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
   text-align: left;
-  box-shadow: 0px 0 5px #aaa;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: #aaa;
 }
 
 .experience:hover {
@@ -214,7 +218,8 @@ ul.skills {
   border-bottom: 3px solid #ccc;
   transition: all .5s;
   border-radius: 5px;
-  max-width: 1100px;
+  margin-top: 100px;
+  filter: brightness(50%);
 }
 
 .image-l:hover {
