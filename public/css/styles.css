@@ -139,10 +139,9 @@ header .profile-image:hover {
 }
 
 .webprojects-cards {
-  display: inline-block;
   margin: 10px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  min-height: 450px;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
@@ -185,6 +184,10 @@ ul.skills {
   min-width: 300px;
   max-width: 1100px;
   margin: auto;
+}
+
+.projects-sec {
+  margin-top: 100px;
 }
 
 .projects-cards {
