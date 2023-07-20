@@ -201,9 +201,9 @@ ul.skills {
   display: inline-table;
   margin: 5px;
   padding: 10px 40px 40px;
-  min-height: 800px;
+  min-height: 700px;
   max-width: 530px;
-  max-height: 1000px;
+  max-height: 900px;
   text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
